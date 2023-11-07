@@ -1,0 +1,11 @@
+
+#######    PROPERTIES FOR THE PYTHON PROJECT SIDE    #######
+
+SERVER_PATH = r"D:\works\SignProj\Server"
+OUTPUT_IMAGE_FOLDER = r"D:\works\SignProj\GAN-Model\CudaProject\image_dataset\train"
+OUTPUT_IMAGE_FOLDER_LOGIN = r"D:\works\SignProj\GAN-Model\CudaProject"
+# POINTS PROPERTIES
+CENTER_X_POINT = 150
+CENTER_Y_POINT = 150
+SIGNATURE_SCREEN_WIDTH = 300
+SIGNATURE_SCREEN_HEIGHT = 300
