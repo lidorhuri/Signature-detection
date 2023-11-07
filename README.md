@@ -24,8 +24,9 @@ The system employs a Support Vector Machine (SVM) model to learn the user's sign
 
 # Step 4: DC-GAN Model Learning
 Using CUDA for accelerated processing, the system trains a Deep Convolutional Generative Adversarial Network (DC-GAN) model to generate signature forgeries. Once the model can successfully forge signatures, it uses this ability to verify the authenticity of login signatures against potential forgeries.
-![image](https://github.com/lidorhuri/Signature-detection/assets/123116810/22f0b345-ada3-4eb7-a1e8-8b785f1d6cdc)
-![image](https://github.com/lidorhuri/Signature-detection/assets/123116810/58d8cb2f-c27c-4c8d-80be-341acf3901d9)
+![image](https://github.com/lidorhuri/Signature-detection/assets/123116810/191f244d-d49b-4b2e-ac66-e02b67365ac0)
+![image](https://github.com/lidorhuri/Signature-detection/assets/123116810/a4713365-9bdf-4c70-bb33-ea7617275b0e)
+
 
 # Accuracy Ranges
 The system's accuracy in identifying signatures varies, with a range of 75% to 93%. This variation is due to the unique nature of each signature and the different learning outcomes of the models.
