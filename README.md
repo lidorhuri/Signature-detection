@@ -19,6 +19,8 @@ The system assesses the directionality of the signature strokes. It distinguishe
 
 # Step 3: SVM Model Learning
 The system employs a Support Vector Machine (SVM) model to learn the user's signature style from the 10 samples provided. It creates a template that is used to check if at least 75% of the login signature fits within the learned template.
+![Figure_1](https://github.com/lidorhuri/Signature-detection/assets/123116810/3f54d072-f804-434a-804b-e4d0f169e366)
+
 
 # Step 4: DC-GAN Model Learning
 Using CUDA for accelerated processing, the system trains a Deep Convolutional Generative Adversarial Network (DC-GAN) model to generate signature forgeries. Once the model can successfully forge signatures, it uses this ability to verify the authenticity of login signatures against potential forgeries.
